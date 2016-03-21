@@ -1,0 +1,32 @@
+compile
+reload
+clean
+reload
+compile
+reload
+compile
+project kafka-streams-test
+run
+runMain co.enear.Kafka.WordCount
+runMain co.enear.kafka.WordCount
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+runMain co.enear.kafka.ConsumerRead
+runMain co.enear.kafka.WordCount
+compile
+runMain co.enear.kafka.WordCount
+runMain co.enear.kafka.ConsumerRead
+runMain co.enear.kafka.WordCount
+runMain co.enear.kafka.ConsumerRead
+runMain co.enear.kafka.WordCount
+runMain co.enear.kafka.ConsumerRead
+compile
+runMain co.enear.kafka.UpperCaseMapper
